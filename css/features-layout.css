@@ -1,12 +1,16 @@
 .features-inner {
   display: flex;
-  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: row;
   gap: 24px;
 }
 
 .feature-card {
-  flex-basis: calc((100% - 72px) / 4);
-  min-width: 264px;
+   padding-inline: 0px;
+   flex-basis: calc((100% - 72px) / 4);
+   min-width: 264px;
+    
 }
 
 @media (max-width: 980px) {

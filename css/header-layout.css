@@ -1,22 +1,26 @@
 .site-header {
-  padding: 24px 0;
+  background: #fff;
   border-bottom: 1px solid #e7e9fc;
+  padding: 24px 0;
 }
 
 .header-inner {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .nav-list {
   display: flex;
+  align-items: center;
   gap: 40px;
   margin-left: 76px;
-}
+  flex-wrap: nowrap;
+ }
 
 .contact-list {
   display: flex;
   gap: 40px;
   margin-left: auto;
-}
+ }
 
