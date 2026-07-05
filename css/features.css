@@ -1,12 +1,10 @@
 
-
 .feature-card {
   background-color: transparent;
- }
-
+}
 
 .feature-title {
-  margin: 0 0 16px;
+  margin-bottom: 8px;
   font-family: 'Roboto', Arial, sans-serif;
   font-size: 20px;
   line-height: 1.2;
@@ -17,7 +15,7 @@
 .feature-text {
   margin: 0;
   color: #434455;
-  font-size: 1rem;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }

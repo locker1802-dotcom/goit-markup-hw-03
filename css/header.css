@@ -12,28 +12,26 @@
   color: var(--accent);
 }
 
-.nav-link {
+.nav-link,
+.contact-link {
+  display: inline-flex;
+  align-items: center;
   font-weight: 500;
-  color: #2e2f42;
   letter-spacing: 0.02em;
   line-height: 1.5;
-  transition: color 0.3s ease;
 }
 
-.nav-link:hover,
-.nav-link:focus {
-  color: #404bbf;
+.nav-link {
+  color: #2e2f42;
 }
 
 .contact-link {
   font-weight: 400;
   color: #434455;
-  letter-spacing: 0.02em;
-  font-style: normal;
-  transition: color 0.3s ease;
-  line-height: 1.5;
 }
 
+.nav-link:hover,
+.nav-link:focus,
 .contact-link:hover,
 .contact-link:focus {
   color: #404bbf;
