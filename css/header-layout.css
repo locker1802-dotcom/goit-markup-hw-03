@@ -1,0 +1,17 @@
+.site-header {
+  padding: 24px 0;
+}
+
+.header-inner {
+  display: flex;
+     
+}
+
+.nav-list {
+  display: flex;
+}
+
+.contact-list {
+  display: flex;
+}
+

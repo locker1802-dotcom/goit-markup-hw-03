@@ -1,0 +1,31 @@
+.portfolio {
+    background-color:#ffffff;
+}
+
+.portfolio-title {
+  text-align: center;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 36px;
+  line-height: 1.1;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.portfolio-card {
+  background-color: transparent;
+}
+
+.portfolio-name {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.portfolio-category {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+

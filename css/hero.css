@@ -1,0 +1,62 @@
+.hero {
+  background-color: #2e2f42;
+  color: #ffffff;
+}
+
+.hero-inner {
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.hero-title {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 56px;
+  line-height: 1.07;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.hero-button {
+  background-color: #4d5ae5;
+  color: #ffffff;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+}
+
+.hero-button:hover,
+.hero-button:focus-visible,
+.hero-button:focus {
+  background-color: #404bbf;
+}
+
+.hero-card,
+.hero-statistic {
+  background: #ffffff;
+  box-shadow: var(--shadow);
+}
+
+.hero-card-label {
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.hero-card-title {
+  font-size: 1.75rem;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.hero-statistic-number {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.hero-statistic-text {
+  color: var(--muted-text);
+  line-height: 1.6;
+}

@@ -1,0 +1,18 @@
+.site-footer {
+  padding: 24px 0;
+}
+
+.footer-inner {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-text {
+  max-width: 720px;
+}
+
+@media (max-width: 660px) {
+  .footer-text {
+    max-width: 100%;
+  }
+}

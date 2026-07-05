@@ -1,0 +1,46 @@
+.logo {
+  font-family: 'Raleway', Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+  line-height: 1.33;
+}
+
+.logo-accent {
+  color: var(--accent);
+}
+
+.nav-link {
+  font-weight: 500;
+  color: #2e2f42;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+
+.contact-link {
+  font-weight: 400;
+  color: #434455;
+  letter-spacing: 0.02em;
+  font-style: normal;
+  transition: color 0.3s ease;
+  line-height: 1.5;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: #404bbf;
+}
+
+@media (max-width: 760px) {
+  .nav-link {
+    font-size: 16px;
+  }
+}
