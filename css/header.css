@@ -14,12 +14,13 @@
 .site-header {
   background: #fff;
   border-bottom: 1px solid #e7e9fc;
-  padding: 24px 0;
+
+
 }
 .header-inner {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+
 }
 .nav-list {
   display: flex;
@@ -32,10 +33,10 @@
 .contact-link {
   display: inline-flex;
   align-items: center;
-  padding: 24px 0;
   font-weight: 500;
   letter-spacing: 0.02em;
   line-height: 1.5;
+  padding: 24px 0;
 }
 
 .nav-link {
